@@ -1,15 +1,62 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="ro">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>eCommerce AI Friendly</title>
+    
+    <!-- Meta SEO & AI -->
+    <meta name="description" content="Cumpără produse moderne – portofele, ceasuri și genți. Magazin online progresiv, optimizat pentru AI și mobil.">
+
+    <!-- Open Graph (pentru AI + social media) -->
+    <meta property="og:title" content="eCommerce AI Friendly" />
+    <meta property="og:description" content="Portofele, ceasuri și genți smart. Site progresiv, optimizat pentru AI și mobil." />
+    <meta property="og:image" content="/img/og-image.jpg" />
+    <meta property="og:url" content="https://siteultau.ro" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="eCommerce AI Friendly" />
+    <meta name="twitter:description" content="Portofele, ceasuri și genți smart. PWA cu funcționare offline și optimizări AI." />
+    <meta name="twitter:image" content="/img/og-image.jpg" />
+
+    <!-- Schema.org pentru site -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "eCommerce AI Friendly",
+      "url": "https://siteultau.ro"
+    }
+    </script>
+
+    <!-- Schema.org pentru produs exemplu -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Portofel RFID din piele",
+      "image": "https://siteultau.ro/img/portofel.jpg",
+      "description": "Protejează-ți cardurile cu stil și siguranță.",
+      "brand": {
+        "@type": "Brand",
+        "name": "LuxCraft"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "RON",
+        "price": "89.99",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>Ne pare rău, dar această aplicație funcționează doar cu JavaScript activat.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
