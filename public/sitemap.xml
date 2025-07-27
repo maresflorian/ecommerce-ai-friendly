@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://exemplu.ro/</loc><priority>0.9</priority></url>
-  <url><loc>https://exemplu.ro/product/1</loc><priority>0.9</priority></url>
-  <url><loc>https://exemplu.ro/product/2</loc><priority>0.9</priority></url>
-  <url><loc>https://exemplu.ro/product/3</loc><priority>0.9</priority></url>
+  <url>
+    <loc>https://reliable-treacle-be4489.netlify.app/</loc>
+  </url>
+  <url>
+    <loc>https://reliable-treacle-be4489.netlify.app/product/1</loc>
+  </url>
+  <url>
+    <loc>https://reliable-treacle-be4489.netlify.app/product/2</loc>
+  </url>
+  <url>
+    <loc>https://reliable-treacle-be4489.netlify.app/product/3</loc>
+  </url>
 </urlset>
